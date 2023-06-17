@@ -1,0 +1,75 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    text-align: center;
+    background-color: rgb(55, 0, 0);
+    color: rgb(183, 0, 0);
+    font-size: 2rem;
+    padding: 20px 0px;
+}
+header h1 {
+font-size: 30px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+    background-color: rgb(80, 1, 1);
+    color: white;
+    height: 87vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .mainheading {
+font-size: 50px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin-bottom: 10px;
+}
+
+.container h3 {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container button {
+font-size: 50px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: rgb(126, 0, 0);
+border: none;
+margin-top: 10px;
+padding: 20px 20px;
+margin: 50px 20px;
+
+}
+
+.container .scores {
+    display: flex;
+    margin-top: 50px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container .scores span{
+    margin: 0px 15px;
+}
+
+.container button:hover{
+    background-color: rgb(58, 0, 0);
+    color: white;
+    cursor: pointer;
+}
+
+footer{
+    text-align: center;
+    padding: 15px 0px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(34, 0, 0);
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
